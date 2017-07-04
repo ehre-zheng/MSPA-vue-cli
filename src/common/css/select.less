@@ -1,0 +1,68 @@
+.vux-cell-box:before {
+  height: 0 !important;
+border-top:none !important;
+}
+  .weui-cells {
+  margin-top: 0 !important;
+  margin-left: 1.5rem !important;
+  padding: 0 0.3rem 0.3rem!important;
+  font-size: 1.6rem !important;
+  border-bottom: none;
+}
+
+.weui-cells:before {
+   height: 0 !important;
+   border-top:none !important;
+}
+.weui-cells:after {
+
+  height: 0 !important;
+  border-top:none !important;
+
+}
+.weui-cell {
+  padding: 10px 15px 10px 0 !important;
+}
+.radio-wrap{
+  height: 5rem;
+  line-height: 5rem;
+  margin-left: 1.5rem;
+  font-size: 1.6rem;
+  border-bottom: 0.1rem solid #D9D9D9;
+  input{
+ position: absolute;
+    width: 4rem;
+    height: 3rem;
+    right: 2rem;
+    top:1rem;
+    z-index: 5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    &:focus{
+      outline: none;
+    }
+  }
+  input:checked+span{
+    background: url("../../common/img/sex.png") no-repeat;
+    background-size: 2.2rem 2.2rem;
+  }
+  .radio-style{
+    display: inline-block;
+    position: relative;
+    padding-left: 6rem;
+    span{
+      display: inline-block;
+      width: 2.2rem;
+      height: 2.2rem;
+      margin-right: 1rem;
+      background: url("../../common/img/sex_none.png") no-repeat;
+      background-size: 2.2rem 2.2rem;
+      position: absolute;
+      right: 1rem;
+      top: 1.6rem;
+      z-index: 1;
+    }
+  }
+}

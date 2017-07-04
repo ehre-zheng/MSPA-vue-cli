@@ -1,0 +1,88 @@
+html {
+  background: #fff;
+}
+.receiptManage .indent-top {
+  display: flex;
+  height: 5rem;
+  background: #fff;
+}
+.receiptManage .indent-top a {
+  flex: 1;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  color: #232323;
+  text-align: center;
+  border-right: 1px solid #d6d6d6;
+}
+.receiptManage .indent-top .active {
+  color: #008CD6;
+}
+.receiptManage .indent-top .a-last {
+  border-right: none;
+}
+.receiptManage .receiptManage-top {
+  height: 5rem;
+  background: #FFF7F0;
+  display: flex;
+}
+.receiptManage .receiptManage-top img,
+.receiptManage .receiptManage-top p {
+  display: block;
+}
+.receiptManage .receiptManage-top img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 1.5rem 1rem 0 1.6rem;
+}
+.receiptManage .receiptManage-top p {
+  flex: 1;
+  line-height: 5rem;
+  font-size: 1.4rem;
+  color: #4C4C4C;
+}
+.receiptManage .receiptManage-moddle {
+  margin: 0 auto;
+  padding: 3rem 0;
+  background: #fff;
+  width: 20rem;
+  height: 25rem;
+  position: relative;
+}
+.receiptManage .receiptManage-moddle img {
+  display: block;
+  width: 20rem;
+  height: 25rem;
+  margin: 0 auto;
+}
+.receiptManage .receiptManage-moddle .xiangji {
+  width: 10rem;
+  height: 10rem;
+  background: #000000;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+  left: 5rem;
+  top: 10.5rem;
+}
+.receiptManage .receiptManage-moddle .xiangji img {
+  position: absolute;
+  left: 3rem;
+  top: 3rem;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+.receiptManage .receiptManage-bottom a {
+  display: block;
+  width: 34.5rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 5rem;
+  background: #008CD6;
+  font-size: 1.6rem;
+  color: #fff;
+  margin: 0 auto;
+}

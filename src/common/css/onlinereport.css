@@ -1,0 +1,148 @@
+body {
+  background: #fff;
+}
+.onlineReport .getCode-wrap {
+  height: 5rem;
+  line-height: 5rem;
+  margin-left: 1.5rem;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+  display: flex;
+}
+.onlineReport .getCode-wrap span {
+  display: block;
+  flex: 1;
+  background: url(../img/lipei/xingbie1.png) no-repeat left center;
+  background-size: 2.2rem 2.2rem;
+  font-size: 1.6rem;
+  color: #969696;
+  text-indent: 3.3rem;
+}
+.onlineReport .getCode-wrap .active {
+  background: url(../img/lipei/xingbie2.png) no-repeat left center;
+  background-size: 2.2rem 2.2rem;
+  color: #4c4c4c;
+}
+.onlineReport .getCode-wrap label {
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 13rem;
+}
+.onlineReport .getCode-wrap input {
+  font-size: 1.4rem;
+  border: 0;
+  outline: none;
+  width: 12rem;
+}
+.onlineReport .getCode-wrap .getCode {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  width: 7.4rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #008CD6;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+}
+.onlineReport .claim-type {
+  margin-left: 1.5rem;
+  border-bottom: 1px solid #d2d2d2;
+  display: flex;
+  padding-top: 1.5rem;
+}
+.onlineReport .claim-type label {
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 13rem;
+}
+.onlineReport .claim-type ul {
+  flex: 1;
+}
+.onlineReport .claim-type ul li {
+  margin-bottom: 1.5rem;
+}
+.onlineReport .claim-type ul li div {
+  float: left;
+  height: 2.8rem;
+  padding: 0 1rem;
+  line-height: 3rem;
+  border: 1px solid #d6d6d6;
+  border-radius: 2.8rem;
+  margin-right: 1.5rem;
+  font-size: 1.4rem;
+}
+.onlineReport .authentication {
+  font-size: 1.6rem;
+  color: #232323;
+  font-weight: bold;
+  padding: 1.5rem 0;
+  text-indent: 1.5rem;
+  background: #EDEEF0;
+}
+.onlineReport .weui-cells {
+  margin-top: 0 !important;
+  margin-left: 1.5rem !important;
+  padding: 1.5rem 0 !important;
+  font-size: 1.6rem !important;
+  border-bottom: 1px solid #EDEEF0;
+}
+.onlineReport .weui-cells:before,
+.onlineReport .weui-cells:after {
+  display: none;
+}
+.onlineReport .vux-x-input,
+.onlineReport .vux-selector {
+  padding: 0 !important;
+}
+.onlineReport .weui-label {
+  width: 13rem !important;
+}
+.onlineReport .weui-select {
+  height: 22px !important;
+  line-height: 22px !important;
+}
+.onlineReport .weui-btn {
+  width: 10rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+  background: #008cd6;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+}
+.mar-tp-0 .weui-cells {
+  padding: 0.6rem!important;
+}
+.online-footer {
+  background: #EDEEF0;
+  text-align: center;
+}
+.online-footer div {
+  width: 34.7rem;
+  margin: 0 auto;
+}
+.online-footer div a {
+  display: inline-block;
+  width: 16.5rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  float: left;
+  border-radius: 5rem;
+  margin: 3rem 0;
+}
+.online-footer div .a1 {
+  border: 1px solid #d6d6d6;
+  background: #fff;
+  margin-right: 1.5rem;
+}
+.online-footer div .a2 {
+  background: #008cd6;
+  color: #fff;
+}
+.vux-popup-picker-value {
+  padding-left: 1.5rem;
+}

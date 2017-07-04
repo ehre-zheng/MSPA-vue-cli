@@ -1,0 +1,66 @@
+.hospital {
+  height: 4rem;
+  line-height: 4rem;
+}
+.hospital .hospital-top {
+  position: relative;
+}
+.hospital .hospital-top p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #232323;
+  text-align: center;
+}
+.hospital .hospital-top a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  font-size: 1.4rem;
+  color: #4C4C4C;
+  height: 4rem;
+  line-height: 4rem;
+  background: url(../img/lipei/zuo.jpg) no-repeat left center;
+  background-size: 1rem 1.8rem;
+  text-indent: 1.5rem;
+}
+.hospital .sousuo {
+  padding: 1rem 0;
+}
+.hospital .sousuo div {
+  margin: 0 auto;
+  width: 34.5rem;
+  position: relative;
+}
+.hospital .sousuo div input {
+  width: 34.5rem;
+  height: 4rem;
+  border: 1px solid #d6d6d6;
+  border-radius: 4rem;
+  outline: none;
+  background: url(../img/lipei/sousuo.png) no-repeat 1.5rem 1rem;
+  background-size: 1.8rem 1.8rem;
+  text-indent: 4.3rem;
+  font-size: 1.4rem;
+  color: #969696;
+}
+.hospital .sousuo div button {
+  width: 7.5rem;
+  height: 4.2rem;
+  border: 2px solid #008cd6;
+  border-radius: 0 4rem 4rem 0;
+  background: #008cd6;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.hospital ul {
+  margin-left: 1.5rem;
+}
+.hospital ul li {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #d6d6d6;
+}
